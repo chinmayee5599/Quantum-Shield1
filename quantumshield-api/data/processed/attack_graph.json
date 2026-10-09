@@ -1,0 +1,979 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "A1",
+            "type": "External Gateway",
+            "layer": "Perimeter",
+            "node_type": "Asset"
+        },
+        {
+            "id": "A2",
+            "type": "Web Server",
+            "layer": "DMZ",
+            "node_type": "Asset"
+        },
+        {
+            "id": "A3",
+            "type": "Application Server",
+            "layer": "Internal",
+            "node_type": "Asset"
+        },
+        {
+            "id": "A4",
+            "type": "Database Server",
+            "layer": "Data",
+            "node_type": "Asset"
+        },
+        {
+            "id": "A5",
+            "type": "Active Directory",
+            "layer": "Internal",
+            "node_type": "Asset"
+        },
+        {
+            "cve": "CVE-2016-7193",
+            "vendor": "Microsoft",
+            "product": "Office",
+            "name": "Microsoft Office Memory Corruption Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2016-7193"
+        },
+        {
+            "cve": "CVE-2026-24423",
+            "vendor": "SmarterTools",
+            "product": "SmarterMail",
+            "name": "SmarterTools SmarterMail Missing Authentication for Critical Function Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-24423"
+        },
+        {
+            "cve": "CVE-2026-66384",
+            "vendor": "JFrog",
+            "product": "Artifactory",
+            "name": "JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-66384"
+        },
+        {
+            "cve": "CVE-2020-29557",
+            "vendor": "D-Link",
+            "product": "DIR-825 R1 Devices",
+            "name": "D-Link DIR-825 R1 Devices Buffer Overflow Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-29557"
+        },
+        {
+            "cve": "CVE-2024-6670",
+            "vendor": "Progress",
+            "product": "WhatsUp Gold",
+            "name": "Progress WhatsUp Gold SQL Injection Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2024-6670"
+        },
+        {
+            "cve": "CVE-2018-14933",
+            "vendor": "NUUO",
+            "product": "NVRmini Devices",
+            "name": "NUUO NVRmini Devices OS Command Injection Vulnerability ",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2018-14933"
+        },
+        {
+            "cve": "CVE-2017-3066",
+            "vendor": "Adobe",
+            "product": "ColdFusion",
+            "name": "Adobe ColdFusion Deserialization Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2017-3066"
+        },
+        {
+            "cve": "CVE-2025-54236",
+            "vendor": "Adobe",
+            "product": "Commerce and\u202fMagento",
+            "name": "Adobe Commerce and\u202fMagento Improper Input Validation Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-54236"
+        },
+        {
+            "cve": "CVE-2020-3569",
+            "vendor": "Cisco",
+            "product": "IOS XR",
+            "name": "Cisco IOS XR Software DVMRP Memory Exhaustion Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-3569"
+        },
+        {
+            "cve": "CVE-2025-68461",
+            "vendor": "Roundcube",
+            "product": "Webmail",
+            "name": "RoundCube Webmail Cross-site Scripting Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-68461"
+        },
+        {
+            "cve": "CVE-2020-5722",
+            "vendor": "Grandstream",
+            "product": "UCM6200",
+            "name": "Grandstream Networks UCM6200 Series SQL Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-5722"
+        },
+        {
+            "cve": "CVE-2019-19781",
+            "vendor": "Citrix",
+            "product": "Application Delivery Controller (ADC), Gateway, and SD-WAN WANOP Appliance",
+            "name": "Citrix ADC, Gateway, and SD-WAN WANOP Appliance Code Execution Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2019-19781"
+        },
+        {
+            "cve": "CVE-2020-2509",
+            "vendor": "QNAP",
+            "product": "QNAP Network-Attached Storage (NAS)",
+            "name": "QNAP Network-Attached Storage (NAS) Command Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-2509"
+        },
+        {
+            "cve": "CVE-2026-5281",
+            "vendor": "Google",
+            "product": "Dawn",
+            "name": "Google Dawn Use-After-Free Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-5281"
+        },
+        {
+            "cve": "CVE-2015-3035",
+            "vendor": "TP-Link",
+            "product": "Multiple Archer Devices",
+            "name": "TP-Link Multiple Archer Devices Directory Traversal Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2015-3035"
+        },
+        {
+            "cve": "CVE-2022-47966",
+            "vendor": "Zoho",
+            "product": "ManageEngine",
+            "name": "Zoho ManageEngine Multiple Products Remote Code Execution Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2022-47966"
+        },
+        {
+            "cve": "CVE-2026-59310",
+            "vendor": "Broadcom",
+            "product": "VMware vCenter",
+            "name": "Broadcom VMware vCenter Path Traversal Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-59310"
+        },
+        {
+            "cve": "CVE-2026-72530",
+            "vendor": "TrueConf",
+            "product": "Server",
+            "name": "TrueConf Server Code Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-72530"
+        },
+        {
+            "cve": "CVE-2025-47813",
+            "vendor": "Wing FTP Server",
+            "product": "Wing FTP Server",
+            "name": "Wing FTP Server Information Disclosure Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-47813"
+        },
+        {
+            "cve": "CVE-2025-22224",
+            "vendor": "VMware",
+            "product": "ESXi and Workstation",
+            "name": "VMware ESXi and Workstation TOCTOU Race Condition Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-22224"
+        },
+        {
+            "cve": "CVE-2024-53104",
+            "vendor": "Linux",
+            "product": "Kernel",
+            "name": "Linux Kernel Out-of-Bounds Write Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2024-53104"
+        },
+        {
+            "cve": "CVE-2018-19943",
+            "vendor": "QNAP",
+            "product": "Network Attached Storage (NAS)",
+            "name": "QNAP NAS File Station Cross-Site Scripting Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2018-19943"
+        },
+        {
+            "cve": "CVE-2019-1322",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Privilege Escalation Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2019-1322"
+        },
+        {
+            "cve": "CVE-2015-5287",
+            "vendor": "Red Hat",
+            "product": "Automatic Bug Reporting Tool",
+            "name": "Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2015-5287"
+        },
+        {
+            "cve": "CVE-2016-0040",
+            "vendor": "Microsoft",
+            "product": "Windows",
+            "name": "Microsoft Windows Kernel Privilege Escalation Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2016-0040"
+        },
+        {
+            "cve": "CVE-2025-31324",
+            "vendor": "SAP",
+            "product": "NetWeaver",
+            "name": "SAP NetWeaver Unrestricted File Upload Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-31324"
+        },
+        {
+            "cve": "CVE-2020-17530",
+            "vendor": "Apache",
+            "product": "Struts",
+            "name": "Apache Struts Remote Code Execution Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-17530"
+        },
+        {
+            "cve": "CVE-2013-1347",
+            "vendor": "Microsoft",
+            "product": "Internet Explorer",
+            "name": "Microsoft Internet Explorer Remote Code Execution Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2013-1347"
+        },
+        {
+            "cve": "CVE-2019-10758",
+            "vendor": "MongoDB",
+            "product": "mongo-express",
+            "name": "MongoDB mongo-express Remote Code Execution Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2019-10758"
+        },
+        {
+            "cve": "CVE-2022-24990",
+            "vendor": "TerraMaster",
+            "product": "TerraMaster OS",
+            "name": "TerraMaster OS Remote Command Execution Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2022-24990"
+        },
+        {
+            "cve": "CVE-2022-43769",
+            "vendor": "Hitachi Vantara",
+            "product": "Pentaho Business Analytics (BA) Server",
+            "name": "Hitachi Vantara Pentaho BA Server Special Element Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2022-43769"
+        },
+        {
+            "cve": "CVE-2018-13374",
+            "vendor": "Fortinet",
+            "product": "FortiOS and FortiADC",
+            "name": "Fortinet FortiOS and FortiADC Improper Access Control Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2018-13374"
+        },
+        {
+            "cve": "CVE-2016-10174",
+            "vendor": "NETGEAR",
+            "product": "WNR2000v5 Router",
+            "name": "NETGEAR WNR2000v5 Router Buffer Overflow Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2016-10174"
+        },
+        {
+            "cve": "CVE-2024-40766",
+            "vendor": "SonicWall",
+            "product": "SonicOS",
+            "name": "SonicWall SonicOS Improper Access Control Vulnerability",
+            "ransomware_campaign": "Known",
+            "derived_risk_weight": 9.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2024-40766"
+        },
+        {
+            "cve": "CVE-2020-14871",
+            "vendor": "Oracle",
+            "product": "Solaris and Zettabyte File System (ZFS)",
+            "name": "Oracle Solaris and Zettabyte File System (ZFS) Unspecified Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-14871"
+        },
+        {
+            "cve": "CVE-2026-93952",
+            "vendor": "Arista",
+            "product": "VeloCloud Orchestrator",
+            "name": "Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2026-93952"
+        },
+        {
+            "cve": "CVE-2021-21224",
+            "vendor": "Google",
+            "product": "Chromium V8",
+            "name": "Google Chromium V8 Type Confusion Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2021-21224"
+        },
+        {
+            "cve": "CVE-2020-6820",
+            "vendor": "Mozilla",
+            "product": "Firefox and Thunderbird",
+            "name": "Mozilla Firefox And Thunderbird Use-After-Free Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-6820"
+        },
+        {
+            "cve": "CVE-2020-24363",
+            "vendor": "TP-Link",
+            "product": "TL-WA855RE",
+            "name": "TP-link TL-WA855RE Missing Authentication for Critical Function Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2020-24363"
+        },
+        {
+            "cve": "CVE-2019-0193",
+            "vendor": "Apache",
+            "product": "Solr",
+            "name": "Apache Solr DataImportHandler Code Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2019-0193"
+        },
+        {
+            "cve": "CVE-2022-44877",
+            "vendor": "CWP",
+            "product": "Control Web Panel",
+            "name": "CWP Control Web Panel OS Command Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2022-44877"
+        },
+        {
+            "cve": "CVE-2023-1671",
+            "vendor": "Sophos",
+            "product": "Web Appliance",
+            "name": "Sophos Web Appliance Command Injection Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2023-1671"
+        },
+        {
+            "cve": "CVE-2025-20333",
+            "vendor": "Cisco",
+            "product": "Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense",
+            "name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Buffer Overflow Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-20333"
+        },
+        {
+            "cve": "CVE-2024-13161",
+            "vendor": "Ivanti",
+            "product": "Endpoint Manager (EPM)",
+            "name": "Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2024-13161"
+        },
+        {
+            "cve": "CVE-2016-3718",
+            "vendor": "ImageMagick",
+            "product": "ImageMagick",
+            "name": "ImageMagick Server-Side Request Forgery (SSRF) Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2016-3718"
+        },
+        {
+            "cve": "CVE-2022-22071",
+            "vendor": "Qualcomm",
+            "product": "Multiple Chipsets",
+            "name": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2022-22071"
+        },
+        {
+            "cve": "CVE-2025-66376",
+            "vendor": "Synacor",
+            "product": "Zimbra Collaboration Suite (ZCS)",
+            "name": "Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2025-66376"
+        },
+        {
+            "cve": "CVE-2021-25372",
+            "vendor": "Samsung",
+            "product": "Mobile Devices",
+            "name": "Samsung Mobile Devices Improper Boundary Check Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2021-25372"
+        },
+        {
+            "cve": "CVE-2017-7921",
+            "vendor": "Hikvision",
+            "product": "Multiple Products",
+            "name": "Hikvision Multiple Products Improper Authentication Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2017-7921"
+        },
+        {
+            "cve": "CVE-2014-8361",
+            "vendor": "Realtek",
+            "product": "SDK",
+            "name": "Realtek SDK Improper Input Validation Vulnerability",
+            "ransomware_campaign": "Unknown",
+            "derived_risk_weight": 7.5,
+            "source": "CISA_KEV",
+            "node_type": "Vulnerability",
+            "id": "CVE-2014-8361"
+        }
+    ],
+    "edges": [
+        {
+            "relationship": "LATERAL_MOVEMENT",
+            "source": "A1",
+            "target": "A2"
+        },
+        {
+            "relationship": "LATERAL_MOVEMENT",
+            "source": "A2",
+            "target": "A3"
+        },
+        {
+            "relationship": "LATERAL_MOVEMENT",
+            "source": "A2",
+            "target": "A5"
+        },
+        {
+            "relationship": "LATERAL_MOVEMENT",
+            "source": "A3",
+            "target": "A4"
+        },
+        {
+            "relationship": "LATERAL_MOVEMENT",
+            "source": "A3",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-7193",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-7193",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-24423",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-66384",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-29557",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-6670",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-6670",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2018-14933",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2017-3066",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-54236",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-54236",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-3569",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-68461",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-68461",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-5722",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-19781",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-19781",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-2509",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-5281",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2015-3035",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-47966",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-47966",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-59310",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-72530",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-47813",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-22224",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-22224",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-53104",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2018-19943",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2018-19943",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-1322",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-1322",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2015-5287",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2015-5287",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-0040",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-0040",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-31324",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-31324",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-17530",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2013-1347",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2013-1347",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-10758",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-24990",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-43769",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2018-13374",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2018-13374",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-10174",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-10174",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-40766",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-14871",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-14871",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-93952",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2026-93952",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2021-21224",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2021-21224",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-6820",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2020-24363",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2019-0193",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-44877",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-44877",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2023-1671",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2023-1671",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-20333",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-13161",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2024-13161",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2016-3718",
+            "target": "A5"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2022-22071",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-66376",
+            "target": "A1"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2025-66376",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2021-25372",
+            "target": "A4"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2017-7921",
+            "target": "A3"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2014-8361",
+            "target": "A2"
+        },
+        {
+            "relationship": "EXPLOITS",
+            "source": "CVE-2014-8361",
+            "target": "A5"
+        }
+    ]
+}

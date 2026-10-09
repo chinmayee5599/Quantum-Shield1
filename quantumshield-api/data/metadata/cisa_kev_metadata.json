@@ -1,0 +1,12 @@
+{
+    "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "dataset_name": "CISA Known Exploited Vulnerabilities",
+    "download_date": "2026-10-08T12:26:12.531114",
+    "file_name": "cisa_kev.json",
+    "processed_date": "2026-10-08T12:26:12.865277",
+    "number_of_vulnerabilities": 1734,
+    "catalog_version": "2026.10.04",
+    "graph_nodes": 55,
+    "graph_edges": 78,
+    "graph_generated_date": "2026-10-08T12:26:12.865277"
+}
